@@ -8,7 +8,8 @@
 
 body {
   background-color: #FFECDA;
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: monospace
 }
 
 #page-wrapper {
@@ -124,13 +125,16 @@ nav>ul {
 }
 
 body {
-  background: white;
+  background-image: url(./img/Habitos_Consumo_746x419.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: 'Muli';
   overflow: hidden;
   min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .contact-container {
@@ -148,6 +152,8 @@ body {
   height: 690px;
   max-width: 90%;
   margin-top: 12em;
+  opacity: 80%;
+
 }
 
 .contact-container h2 {
@@ -162,7 +168,6 @@ body {
 .contact-container p {
   letter-spacing: 0.5px;
   line-height: 35px;
-  text-transform: capitalize;
   font-size: 1.5em;
   color: #000;
   position: relative;
@@ -189,8 +194,8 @@ body {
 .contact-container textarea {
   border: none;
   border-radius: 4px;
-  font-family: 'Muli';
-  font-size: 24px;
+  font-family: monospace;
+  font-size: 20px;
   padding: 13px;
   position: absolute;
   top: 0;
@@ -199,6 +204,7 @@ body {
   height: 100%;
   width: 100%;
   z-index: 10;
+
 }
 
 .contact-container input:focus,
@@ -223,7 +229,7 @@ body {
 }
 
 .contact-container button {
-  background: red;
+  background: green;
   border: none;
   border-radius: 4px;
   box-shadow: 0 3px 5px rgba(237, 115, 200, 0.5);
