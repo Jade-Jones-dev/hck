@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding:0;
+    font-family: monospace;
 }
 
 .main img{
@@ -25,13 +26,16 @@ body{
     top: 80%;
     left: 10%;
     height: 50px;
-    width: 150px;
+    width: 180px;
     border-radius: 20px;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: 800;
   }
 
   .main >h2{
     position: absolute;
+    font-size: 30px;
+    font-weight: 800;
     top: 10%;
     left: 10%;
   }
