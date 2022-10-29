@@ -1,6 +1,15 @@
+.nav-links {
+  display: flex;
+  justify-content: inline-block;
+  list-style: none;
+  padding: 10px 20px;
+  background-color: darkolivegreen;
+}
+
 body {
-  background-color: teal;
-  color: white;
+  background-color: white;
+  color: black;
+
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -13,34 +22,39 @@ body {
   border: 0;
   height: auto;
 
+  h1 {
+    padding-left: 50px;
+  }
 
-}
+  .main {
+    position: relative;
+    width: 100%;
+  }
 
-.main {
-  position: relative;
-  width: 100%;
-}
+  .main button {
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    height: 50px;
+    width: 180px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 800;
+  }
 
-.main button {
-  position: absolute;
-  top: 80%;
-  left: 10%;
-  height: 50px;
-  width: 180px;
-  border-radius: 20px;
-  font-size: 24px;
-  font-weight: 800;
-}
+  .main>h2 {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 800;
+    top: 10%;
+    left: 10%;
+    color: white;
 
-.main>h2 {
-  position: absolute;
-  font-size: 30px;
-  font-weight: 800;
-  top: 10%;
-  left: 10%;
-}
+  }
 
 
-#btn1 a {
-  text-decoration: none;
-}
+  #btn1 a {
+    text-decoration: none;
+    border: none;
+
+  }
