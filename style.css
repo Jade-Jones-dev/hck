@@ -9,8 +9,10 @@
     background-color: darkolivegreen;
 
 body{
+
     background-color: white;
     color: black;
+
     box-sizing: border-box;
     margin: 0;
     padding:0;
@@ -24,6 +26,10 @@ body{
     height: auto;
 
 
+}
+
+h1{
+    padding-left: 50px;
 }
 
 .main {
@@ -40,13 +46,19 @@ body{
     border-radius: 20px;
     font-size: 24px;
     font-weight: 800;
+    border: none;
   }
 
   .main >h2{
     position: absolute;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
-    top: 10%;
+    top: 5%;
     left: 10%;
+
+    color: white;
   }
+
+ 
+
 
