@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(175, 195, 175);
+    justify-items: center;
+    text-align: center;
+    margin: 0 20rem 0 20rem;
+}
+
+.main img{
+  width: 30%;
+    object-fit:cover;
+    border: 0;
+    height: auto;
+
+}
